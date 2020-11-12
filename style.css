@@ -1,0 +1,38 @@
+/* h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 70vh; */
+/* }*/ 
+
+hr{
+  border-color:#ad0808;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.buffer{
+height: 10rem;
+}
+
+.btn-primary{
+  background-color: rgb(167, 37, 37);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 300px;
+  text-transform: uppercase;
+  transition: transform 1s;
+}
+.btn-primary:hover{
+  background-color: #ad0808;
+  transform: scale(1.05);
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url("header.jpg") no-repeat center fixed;
+  background-size: cover;
+}
